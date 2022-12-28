@@ -46,11 +46,12 @@ header{
 }
 
 header .logo{
-    margin: 0;
-    padding: 25px 30px;
-    font-weight: bold;
-    color: blueviolet;
-    font-size: 1.6em;
+    background-image: url("media/logo.jpg");
+        background-size: cover;
+        background-position: center center;
+        height: 90px;
+        width: 80px; 
+        border-radius: 80px;
 }
 
 header .container{
@@ -91,6 +92,7 @@ header a:hover{
     )
     ,url("media/hero.jpg");
     background-repeat: no-repeat;
+    padding-top: 50px;
     background-size: cover;
     background-position: center center;
 }
@@ -103,7 +105,7 @@ header a:hover{
     font-size: 1.75em;
 }
 
-#somos-proya .container{
+#publico .container{
     text-align: center;
     padding: 200px 12px;
 }
@@ -141,7 +143,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("");
 
 }
 
@@ -151,7 +153,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/full-stack.jpg");
+    ,url("");
 }
 
 .carta:nth-child(3){
@@ -160,7 +162,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/python.jpg");
+    ,url("");
 
 }
 
@@ -231,12 +233,12 @@ footer .container{
         font-size: 5em;
     }
 
-    #somos-proya .container{
+    #publico .container{
         display: flex;
         justify-content: space-evenly;
     }
 
-    #somos-proya .texto{
+    #publico .texto{
         width: 50%;
         max-width: 600px;
         text-align: initial;
@@ -246,12 +248,12 @@ footer .container{
         justify-content: center;
     }
 
-    #somos-proya h2{
+    #publico h2{
         margin-top: 0px;
     }
 
-    #somos-proya .img-container{
-        background-image: url("media/somos-proya.jpg");
+    #publico .img-container{
+        background-image: url("media/publico.jpg");
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -291,7 +293,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/front-end-cropped.jpg");
+        ,url("media/dj.jpg");
 
     }
 
@@ -301,7 +303,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/full-stack-cropped.jpg");
+        ,url("media/nacionales.jpeg");
     }
 
     .carta:nth-child(3){
@@ -310,7 +312,7 @@ footer .container{
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
         )
-        ,url("media/python-cropped.jpg");
+        ,url("media/portada-shows.png");
 
     }
 
@@ -318,7 +320,7 @@ footer .container{
         background-image: url("media/background-2.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
-        background-position: calc(100vw - 500px) 120px;
+        background-position: calc(100vw - 500px) 140px;
     }
 
     #caracteristicas .container{
@@ -338,7 +340,7 @@ footer .container{
     }
 
     footer .container{
-        justify-content: flex-end;
+        justify-content: center;
     }
 }
 
@@ -347,3 +349,7 @@ footer .container{
         background-position-x: calc(100vw - 800px);
     }
 }
+
+
+
+
