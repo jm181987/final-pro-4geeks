@@ -18,7 +18,7 @@ p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
 
-button{
+.botoninfo{
     font-size: 1.25em;
     font-weight: bold;
     padding: 10px 30px;
