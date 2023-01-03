@@ -52,6 +52,7 @@ button:hover{
 .desarrolladores {
 display: flex;
 align-content: center;
+
 }
 .color-acento{ color:blueviolet; }
 
@@ -68,6 +69,7 @@ header .logo{
         height: 90px;
         width: 80px; 
         border-radius: 50px;
+        
 }
 
 header .container{
